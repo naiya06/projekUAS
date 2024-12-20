@@ -1,0 +1,92 @@
+/* src/page/catatan.css */
+.catatan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan konten secara horizontal */
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .calendar-logo {
+    display: flex;
+    align-items: center; /* Pusatkan logo dan teks secara vertikal */
+    margin-bottom: 20px; /* Jarak bawah untuk logo */
+  }
+  
+  .calendar-logo-img {
+    width: 50px; /* Ukuran logo */
+    height: auto; /* Menjaga proporsi gambar */
+    margin-right: 10px; /* Jarak antara logo dan teks */
+  }
+  
+  .calendar-title {
+    font-size: 24px; /* Ukuran font untuk judul */
+    color: black; /* Warna teks */
+  }
+  
+  .calendar {
+    margin-top: 20px; /* Jarak atas untuk kalender */
+  }
+  
+  .mood-container {
+    display: flex;
+    justify-content: center; /* Pusatkan mood secara horizontal */
+    margin-top: 10px; /* Jarak atas untuk mood */
+  }
+  
+  .mood-item {
+    cursor: pointer; /* Menunjukkan bahwa item dapat diklik */
+    margin: 0 10px; /* Jarak antar emoji */
+    font-size: 30px; /* Ukuran emoji */
+    transition: transform 0.2s; /* Efek transisi saat hover */
+  }
+  
+  .mood-item:hover {
+    transform: scale(1.2); /* Efek zoom saat hover */
+  }
+
+/* src/page/catatan.css */
+
+/* Mengubah warna teks untuk hari-hari dalam kalender */
+.react-calendar {
+    color: black; /* Warna teks default untuk hari-hari */
+  }
+  
+  .react-calendar__month-view__days__day {
+    color: black; /* Warna teks untuk hari-hari */
+  }
+  
+  .react-calendar__month-view__days__day--weekend {
+    color: gray; /* Warna teks untuk akhir pekan (optional) */
+  }
+  
+  /* Mengubah warna latar belakang untuk hari yang dipilih */
+  .react-calendar__tile--active {
+    background: #d5006d; /* Warna latar belakang untuk hari yang dipilih */
+    color: white; /* Warna teks untuk hari yang dipilih */
+  }
+  
+  /* Mengubah warna latar belakang untuk hari yang dipilih saat hover */
+  .react-calendar__tile--active:hover {
+    background: #c51162; /* Warna saat hover */
+  }
+
+  /* src/page/catatan.css */
+
+/* Kelas untuk tanggal yang dipilih */
+.selected {
+    background: #ff69b4; /* Warna pink */
+    color: white; /* Warna teks untuk tanggal yang dipilih */
+  }
+
+  /* src/page/catatan.css */
+
+/* Mengubah warna teks bulan dan tahun */
+.react-calendar__navigation__label {
+    color: black; /* Ganti dengan warna yang diinginkan */
+  }
+  
+  /* Mengubah warna teks untuk tombol navigasi bulan sebelumnya dan berikutnya */
+  .react-calendar__navigation__arrow {
+    color: black; /* Ganti dengan warna yang diinginkan */
+  }
