@@ -23,9 +23,9 @@ const articles = [
   },
   {
     id: 4,
-    title: "Mengatasi Nyeri Haid",
-    image: "/path/to/image4.jpg",
-    description: "Tips dan cara untuk mengatasi nyeri saat menstruasi."
+    title: "Cemilan Untuk Meredakan Nyeri Menstruasi",
+    image: "src\images\cemilan untuk meredakan nyeri.png",
+    description: "bvjhfy"
   },
   {
     id: 5,

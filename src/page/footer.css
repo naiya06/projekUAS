@@ -1,31 +1,38 @@
-/* src/page/footer.css */
+
+.content-container {
+  flex-grow: 1; /* Memungkinkan konten untuk mengisi ruang yang tersisa */
+  min-height: 0; /* Membolehkan konten untuk menyusut jika diperlukan */
+}
+
 .footer {
   display: flex;
-  flex-direction: column; /* Mengatur arah flex menjadi kolom */
-  align-items: center; /* Pusatkan item secara horizontal */
-  background-color: #f8bbd0; /* Warna latar belakang footer */
-  padding: 10px 0;
-  border-top: 1px solid #ccc; /* Garis atas footer */
+  flex-direction: column; /* Mengatur item footer secara vertikal */
+  align-items: center; /* Memusatkan item secara horizontal */
+  background-color: #efa6bf; /* Warna latar belakang footer */
+  padding: 10px 0; 
+  border-top: 1px solid #ccc; /* Garis batas di atas footer */
+  margin-top: auto; /* Memaksa footer berada di bawah */
 }
 
 .footer-logos {
   display: flex; /* Mengatur logo dalam baris */
-  justify-content: center; /* Pusatkan logo */
-  margin-bottom: 10px; /* Jarak antara logo dan tautan */
+  justify-content: center; /* Memusatkan logo */
+  margin-bottom: 0.3px; /* Jarak antara logo dan teks */
 }
 
 .footer-item {
-  text-align: center; /* Pusatkan teks di bawah logo */
-  margin: 0 20px; /* Jarak antar item */
+  text-align: center; /* Memusatkan teks di bawah logo */
+  margin: 0 40px; /* Jarak antar item footer */
 }
 
 .footer-logo {
   width: 50px; /* Ukuran logo */
   height: auto; /* Menjaga proporsi gambar */
   cursor: pointer; /* Menunjukkan bahwa logo dapat diklik */
+  
 }
 
 .footer-item p {
-  margin-top: 5px; /* Jarak antara logo dan teks */
+  margin-top: 0.2px; /* Jarak antara logo dan teks */
   color: #d5006d; /* Warna teks */
 }

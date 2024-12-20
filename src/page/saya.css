@@ -1,5 +1,5 @@
-/* src/page/saya.css */
-.saya-container {
+  /* src/page/saya.css */
+  .saya-container {
     max-width: 600px; /* Lebar maksimum kontainer */
     margin: 20px auto; /* Pusatkan kontainer */
     padding:  20px;
@@ -8,11 +8,11 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bayangan */
     background-color: #fff; /* Warna latar belakang */
   }
-  
+
   .bio-info {
     margin-top: 20px;
   }
-  
+
   .bio-info input {
     display: block;
     margin: 10px auto; /* Pusatkan input */
@@ -21,7 +21,7 @@
     border: 1px solid #ccc; /* Garis batas */
     border-radius: 5px; /* Sudut melengkung */
   }
-  
+
   button {
     margin-top: 10px;
     padding: 10px 15px;
@@ -32,55 +32,57 @@
     cursor: pointer; /* Kursor pointer saat hover */
     transition: background-color 0.3s; /* Transisi warna saat hover */
   }
-  
+
   button:hover {
     background-color: #c51162; /* Warna saat hover pada tombol */
   }
-  
+
+  /* Gaya untuk menampilkan data profil */
   .profile-display {
-    display: flex; 
-    align-items: center; 
+    display: flex; /* Menggunakan flexbox untuk tata letak */
+    align-items: center; /* Rata tengah secara vertikal */
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #e0e0e0; 
-    border-radius: 10px; 
-    background-color: #f9f9f9; 
+    border: 1px solid #e0e0e0; /* Garis batas */
+    border-radius: 10px; /* Sudut melengkung */
+    background-color: #f9f9f9; /* Warna latar belakang */
   }
-  
+
   .profile-display h2 {
-    margin-bottom: 10px; 
-    font-size: 24px; 
-    color: #333; 
+    margin-bottom: 10px; /* Jarak bawah judul */
+    font-size: 24px; /* Ukuran font judul */
+    color: #333; /* Warna teks judul */
   }
-  
+
   .profile-display p {
-    margin: 5px 0; 
-    font-size: 18px; 
-    color: #555; 
+    margin: 5px 0; /* Jarak antar paragraf */
+    font-size: 18px; /* Ukuran font untuk informasi */
+    color: #555; /* Warna teks informasi */
   }
-  
+
+  /* Gaya untuk gambar profil */
   .profile-image {
-    width: 100px; 
-    height: 100px; 
-    border-radius: 50%; 
-    margin-right: 20px; 
-    border: 2px solid #d5006d; 
-    object-fit: cover; 
+    width: 100px; /* Lebar gambar profil */
+    height: 100px; /* Tinggi gambar profil */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    margin-right: 20px; /* Jarak kanan gambar */
+    border: 2px solid #d5006d; /* Garis batas gambar */
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
   }
 
   .profile-info {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Mengatur elemen dalam kolom */
   }
 
   .profile-info h3 {
-    margin: 0; 
-    font-size: 24px; 
-    color: #333; 
+    margin: 0; /* Menghilangkan margin */
+    font-size: 24px; /* Ukuran font untuk nama */
+    color: #333; /* Warna teks nama */
   }
 
   .profile-info p {
-    margin: 5px 0;
-    font-size: 18px; 
-    color: #555; 
+    margin: 5px 0; /* Jarak antar paragraf */
+    font-size: 18px; /* Ukuran font untuk informasi */
+    color: #555; /* Warna teks informasi */
   }
